@@ -1,0 +1,35 @@
+#FormSettings {
+  text-align: left;
+  margin: 5%;
+  padding: 10%;
+  justify-content: left;
+  border-style: solid;
+}
+
+.form-number {
+  width: 75%;
+}
+.form-label {
+  margin-top: 2%;
+  color: #032b43;
+}
+
+input[type="number"] {
+  background-color: #95eeae;
+  border-width: 2px;
+  border-radius: 7px;
+  border-color: #032b43;
+}
+
+.btn-reset {
+  width: 75%;
+  height: 30%;
+  border-radius: 6px !important;
+  background-color: #fa1f4e !important;
+  color: #7cea9c !important;
+  margin: 8% 0 0 0;
+}
+
+.btn-danger:hover {
+  background-color: #ce163e !important;
+}

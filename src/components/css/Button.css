@@ -1,0 +1,29 @@
+.btn {
+  width: 30%;
+  margin: 5%;
+  border-radius: 6px !important;
+}
+
+.Start {
+  background-color: #07639c !important;
+  color: #7cea9c !important;
+}
+
+.Skip {
+  background-color: #07639c !important;
+  color: #7cea9c !important;
+}
+
+.Stop {
+  background-color: #fa1f4e !important;
+  color: #7cea9c !important;
+}
+
+.Start:hover,
+.Skip:hover {
+  background-color: #032b43 !important;
+}
+
+.Stop:hover {
+  background-color: #ce163e !important;
+}

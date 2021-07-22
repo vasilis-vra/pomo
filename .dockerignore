@@ -1,0 +1,8 @@
+.dockerignore
+.gitignore
+Dockerfile
+LICENSE
+One-Stage.Dockerfile
+One-Stage.Dockerfile.dockerignore
+Readme.md
+docker-compose.yml

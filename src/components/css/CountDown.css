@@ -1,0 +1,25 @@
+@import "./Fonts.css";
+
+.Timer {
+  margin: 0% 20%;
+  padding: 6% 0%;
+  border-radius: 2%;
+  background-color: #ff8360;
+}
+
+.Timer h1 {
+  font-family: "Uchen", serif;
+  font-size: 500%;
+}
+
+.Timer.Pomodoro {
+  background-color: #ff8360;
+}
+
+.Timer.ShortBreak {
+  background-color: #7cc6fe;
+}
+
+.Timer.LongBreak {
+  background-color: #7cc6fe;
+}

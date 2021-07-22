@@ -1,0 +1,13 @@
+.navbar-brand {
+  padding: 0% 10%;
+  color: #7cea9c;
+}
+
+a:hover {
+  color: #6cce87 !important;
+}
+
+.navbar-custom {
+  background-color: #07090f;
+  color: #7cea9c;
+}

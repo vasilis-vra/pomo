@@ -1,0 +1,39 @@
+@import "./components/css/Fonts.css";
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  color: #7cea9c;
+  padding: auto;
+}
+
+.App-body {
+  justify-content: center;
+  text-align: center;
+  background-color: #7cea9c;
+  color: #032b43;
+  height:100vh; margin:0;
+  max-width: 100%;
+}
+
+.App-footer {
+  clear: both;
+
+  justify-content: center;
+  text-align: center;
+  background-color: #07090f;
+  color: #7cea9c;
+  position: relative;
+  height: 150px;
+  padding: 1% 0%;
+  font-weight: 100;
+  width:100%;
+}
+
+/* footer {
+  position: absolute;
+  bottom: 0;
+} */
