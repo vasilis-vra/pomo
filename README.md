@@ -1,5 +1,6 @@
 # Pomodoro Timer
-Pomodoro timer web application in React
+Pomodoro timer web application in React.   
+Visit the app: [a link] (https://timer-pomo.herokuapp.com/)
 
 ## Table of Contents
 * [General info](#general-info)
