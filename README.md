@@ -16,7 +16,7 @@ This project is a web application implementing a pomodoro timer.
 * Node 14.16
 
 ## Setup
-1. Clone the project from this repository.
+1. Clone the project from this repository or run ```git clone https://github.com/vasilis-vra/pomo.git```.
 2. Navigate to the project directory and run ```npm install``` to download the necessary node modules.
 3. Run ```npm start``` to start the react application on localhost:3000.
 
