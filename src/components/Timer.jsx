@@ -6,7 +6,7 @@ export default function Timer(props) {
   const [seconds, setSeconds] = useState(props.time * 60);
 
   //setSeconds after each second
-  useEffect((props) => {
+  useEffect(() => {
     if (seconds === 0 && props.status === "Pomodoro") {
       props.setRounds(props.rounds + 1);
       if ((props.rounds + 1) % props.LBInterval === 0)
@@ -20,7 +20,7 @@ export default function Timer(props) {
     const timer =
       seconds > 0 && setInterval(() => setSeconds(seconds - 1), 1000);
     return () => clearInterval(timer);
-  }, [seconds]);
+  });
 
   //render the Timer
   return (

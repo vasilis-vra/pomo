@@ -1,3 +1,7 @@
+.Footer{
+  margin:0;
+}
+
 .Footer p {
   margin: 0% 0% 1% 0%;
 }
@@ -5,3 +9,4 @@
 .Footer a {
   margin: 2%;
 }
+

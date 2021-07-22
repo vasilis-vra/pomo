@@ -5,6 +5,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer(props) {
   //render the App footer
+  const date = new Date();
   return (
     <div className="Footer">
       <p>created by Vasileios Vrachoritis</p>
@@ -16,7 +17,7 @@ export default function Footer(props) {
           <FontAwesomeIcon className="fas fa-camera fa-2x" icon={faGithub} />
         </a>
       </p>
-      <p> &copy; Pomo 2021</p>
+      <p> &copy; Pomo {date.getFullYear()}</p>
     </div>
   );
 }
